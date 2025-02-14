@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597118814620",
+    "project_id": "hasan-shop-admin",
+    "storage_bucket": "hasan-shop-admin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597118814620:android:5958511416a47d04732059",
+        "android_client_info": {
+          "package_name": "com.example.hasan_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMzUa3Ja2nmcyaRIQedTYYaU7amdlGGRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
