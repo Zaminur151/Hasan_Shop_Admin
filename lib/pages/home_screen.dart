@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: ListView.separated(
               padding: EdgeInsets.only(top: 16),
-              itemCount: 10,
+              itemCount: ctrl.products.length,
               separatorBuilder: (context, index) => SizedBox(height: 10),
               itemBuilder: (context, index) {
                 return Container(
@@ -41,13 +41,13 @@ class HomePage extends StatelessWidget {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("Product Name"),
-                              Text("Price", style: TextStyle(
+                              Text(ctrl.products[index].name??""),
+                              Text(ctrl.products[index].price.toString(), style: TextStyle(
                                   fontSize: 12, color: Colors.black54),),
                             ],
                           ),
                           IconButton(onPressed: () {
-                            ctrl.testMethod();
+                            ctrl.deleteProduct(ctrl.products[index].id!);
                           },
                               icon: Icon(Icons.delete_forever)),
                         ],

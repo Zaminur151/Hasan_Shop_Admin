@@ -6,9 +6,9 @@ import 'package:hasan_shop/firebase_option.dart';
 import 'pages/home_screen.dart';
 
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp(options: firebaseOptions);
+  await Firebase.initializeApp(options: firebaseOptions);
   Get.put(HomeController());
   runApp(const MyApp());
 }

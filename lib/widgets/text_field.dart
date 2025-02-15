@@ -5,7 +5,8 @@ class CustomTextField extends StatelessWidget {
   final String hintText;
   final bool isField;
   final int maxLine;
-  const CustomTextField({super.key, required this.label, this.hintText='',this.isField = true, this.maxLine=1});
+  final TextEditingController controller;
+  const CustomTextField({super.key,required this.controller, required this.label, this.hintText='',this.isField = true, this.maxLine=1});
 
   @override
   Widget build(BuildContext context) {
@@ -15,6 +16,7 @@ class CustomTextField extends StatelessWidget {
         Text("$label:",style: TextStyle(color: Colors.orangeAccent),),
         SizedBox(height: 8,),
         TextField(
+          controller: controller,
           maxLines: maxLine,
           cursorColor: Colors.orangeAccent,
           decoration: InputDecoration(

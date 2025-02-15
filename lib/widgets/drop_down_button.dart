@@ -6,8 +6,9 @@ String? selectedValue;
 class CustomDropDownBtn extends StatelessWidget {
   final List<String> items;
   final String hint;
+  final double width;
   final Function(String?) onSelect;
-  const CustomDropDownBtn({super.key, required this.items, this.hint='Select Item',required this.onSelect});
+  const CustomDropDownBtn({super.key, required this.items,this.width= 140, this.hint="",required this.onSelect});
 
 
 
@@ -41,7 +42,7 @@ class CustomDropDownBtn extends StatelessWidget {
         buttonStyleData: ButtonStyleData(
             padding: EdgeInsets.symmetric(horizontal: 16),
             height: 40,
-            width: 140,
+            width: width,
             decoration: BoxDecoration(
               border: Border.all(
                   width: 1,
