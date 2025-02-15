@@ -1,9 +1,10 @@
 # **Hasan Shop Admin**
 _The admin app of Hasan Shop_
 
+- **Source Code:** at master branch
 
 ## **🚀 About the Project**
-This is an admin app of Hasan Shop, It has two screen (home_screen and add_product_screen) with simple ui, it's mainly work to add new product, fetch all products and delete product.
+This is an admin app of Hasan Shop, It has two screens (home_screen and add_product_screen) with simple UI, it mainly works to add new products, fetch all products, and delete products.
 
 
 ## **✨ Features**
@@ -24,5 +25,3 @@ This is an admin app of Hasan Shop, It has two screen (home_screen and add_produ
 👤 **Zaminur Hasan**  
 📧 Email: [_zaminurprof@gmail.com_](mailto:zaminurprof@gmail.com)  
 🔗 LinkedIn: [_zaminur-hasan_](https://www.linkedin.com/in/zaminur-hasan/)
-
-
