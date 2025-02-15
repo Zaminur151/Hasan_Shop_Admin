@@ -1,16 +1,42 @@
-# hasan_shop
+# **Hasan Shop Admin**
+_The admin app of Hasan Shop_
 
-A new Flutter project.
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Getting Started
+## **📌 Table of Contents**
+- **Source Code:** on master branch
+1. [About the Project](#-about-the-project)
+2. [Features](#-features)
+3. [Tech Stack](#-tech-stack)
+4. [Contact](#-contact)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## **🚀 About the Project**
+This is an admin app of Hasan Shop, It has two screen (home_screen and add_product_screen) with simple ui, it's mainly work to add new product, fetch all products and delete product.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **✨ Features**
+- ✅ Add new product
+- ✅ Fetch all products
+- ✅ Delete product
+
+---
+
+## **🛠 Tech Stack**
+- **Backend:** Firebase
+- **Database:** FireStore
+- **State management:** GetX
+- **Frontend:** Flutter, Dart
+
+
+---
+
+## **📩 Contact**
+👤 **Zaminur Hasan**  
+📧 Email: [_zaminurprof@gmail.com_](mailto:zaminurprof@gmail.com)  
+🔗 LinkedIn: [_zaminur-hasan_](https://www.linkedin.com/in/zaminur-hasan/)
+
+---
+
