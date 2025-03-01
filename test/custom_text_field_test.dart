@@ -4,8 +4,8 @@ import 'package:hasan_shop/widgets/text_field.dart';
 
 void main() {
   testWidgets('CustomTextField test', (WidgetTester tester) async {
-    final controller = TextEditingController();
 
+    final controller = TextEditingController();
     const label = 'Name';
     const hintText = 'Enter your name';
     const maxLine = 1;
